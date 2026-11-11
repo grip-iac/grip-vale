@@ -1,0 +1,19 @@
+extends: substitution
+message: "Use '%s' instead of the phrasal verb '%s'."
+level: warning
+ignorecase: true
+swap:
+  take out: remove
+  go on: continue
+  kick off: start
+  carry out: do
+  find out: learn
+  look into: investigate
+  set up: configure
+  figure out: determine
+  come up with: create
+  make up: create
+  put off: delay
+  give up: stop
+  turn on: enable
+  turn off: disable

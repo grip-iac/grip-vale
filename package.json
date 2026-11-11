@@ -1,0 +1,8 @@
+{
+  "name": "Grip",
+  "description": "Vale style that checks the Grip writing rules.",
+  "author": "Grip",
+  "homepage": "https://github.com/grip-iac/grip-vale",
+  "vale": "Grip",
+  "version": "1.0.0"
+}

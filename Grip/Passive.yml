@@ -1,0 +1,6 @@
+extends: existence
+message: "'%s' can be passive. Use the active voice when the actor is known."
+level: suggestion
+ignorecase: true
+tokens:
+  - '\b(is|are|was|were|be|been|being)\s+\w+ed\b'

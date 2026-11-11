@@ -1,0 +1,8 @@
+extends: existence
+message: "Use the simple present tense. Avoid '%s'."
+level: suggestion
+ignorecase: true
+tokens:
+  - '\bwill\s+\w+'
+  - '\b(has|have|had)\s+been\s+\w+'
+  - '\b(is|are|was|were)\s+\w+ing\b'

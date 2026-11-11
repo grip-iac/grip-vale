@@ -1,0 +1,17 @@
+extends: existence
+message: "Do not use the idiom or figure of speech '%s'."
+level: warning
+ignorecase: true
+tokens:
+  - go ahead
+  - under the hood
+  - out of the box
+  - low-hanging fruit
+  - a lot of
+  - piece of cake
+  - rule of thumb
+  - heavy lifting
+  - corner case
+  - silver bullet
+  - bite the bullet
+  - the elephant in the room
