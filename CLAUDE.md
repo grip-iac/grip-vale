@@ -43,8 +43,8 @@ These rules apply to humans and to AI agents.
 
 ## Language order
 
-- Name the three language bindings in this order: Python, Node.js, Rust.
-- Use the labels `Python`, `Node.js`, and `Rust`. Do not write "Node" or "JS".
+- Name the four languages in this order: Python, Node.js, Rust, YAML.
+- Use the labels `Python`, `Node.js`, `Rust`, and `YAML`. Do not write "Node" or "JS".
 - Apply the order to prose, tabs, comments, docstrings, path globs, and lists in code.
 - Check each new list of languages against this order.
 
@@ -72,6 +72,6 @@ Write: "This function checks the input from the user."
 ## Before you finish
 
 - Read each sentence. Split it if it has more than one idea or more than the word limit.
-- Run the prose linter (`vale docs/`) and fix each error.
+- Run `vale sync`, then run `vale` on each Markdown file that you change. Fix each error.
 - If a rule makes the text unclear, keep the text clear and add a short note in the pull request.
 <!-- END general-rules -->
